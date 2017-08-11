@@ -12,15 +12,18 @@ object O9Test {
    /* val rsFile = new ReverScanFile
     rsFile.readFileAndRever("D:\\BaiduNetdiskDownload\\debug.log")
 */
-   /* val f12 = new ScanFileFilter12
-    f12.displayLager12(path)*/
+    val f12 = new ScanFileFilter12
+    f12.displayLager12(path)
 
-   /* val patten ="""^\+?[1-9][0-9]*""".r
-    println(patten.findAllIn("2 2 df 1 ").toArray.length)*/
+/*    val patten =
+      """
+        ^[1-9]\d*$
+        """.r
+    println(patten.findAllIn("222 ".trim).toArray.length)*/
 
 /*    val sif = new SumInFile
     sif.readFileAndRever(path)*/
-    testSerPerdson
+    //testSerPerdson
   }
 
   def testSerPerdson ={

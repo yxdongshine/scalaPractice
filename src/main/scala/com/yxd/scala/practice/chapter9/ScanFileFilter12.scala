@@ -9,9 +9,7 @@ import scala.io.Source
 class ScanFileFilter12 {
 
   val patten =
-    """
-      |^\+?[1-9][0-9]*$
-    """.stripMargin
+    """^[1-9]\d*$""".stripMargin
   def displayLager12(path:String) = {
 
    Source.fromFile(path,"GBK")
