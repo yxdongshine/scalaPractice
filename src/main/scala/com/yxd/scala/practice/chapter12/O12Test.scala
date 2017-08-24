@@ -9,7 +9,7 @@ object O12Test {
     //fp.values(value => value*value ,-1,2)
     //println(fp.getManInArray())
     //println(fp.getNumJ(5))
-    println(fp.adjustToPair)
+    //println(fp.adjustToPair)
 
 
   }
