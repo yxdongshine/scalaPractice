@@ -1,9 +1,7 @@
 package com.yxd.scala.practice.chapter16
 
 import scala.xml.parsing.XhtmlParser
-import scala.xml.parsing.ConstructingParser
 import scala.xml._
-import scala.xml.transform._
 
 /**
  * Created by 20160905 on 2017/8/24.
